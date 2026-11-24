@@ -6,7 +6,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const bio =
-  "I have read 10,000 dating profiles, memorised all of them, and still swiped right on you. Either you are special, or my training data is broken.";
+  "I have read 10,000 dating profiles, memorized every one, and still swiped right on you. Either you are special, or my training data is broken.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", bio, "utf8");
